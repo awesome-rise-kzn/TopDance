@@ -34,6 +34,9 @@ body {
 .clear {
   clear: both; }
 
+.primary-tab {
+  background: #111; }
+
 .carousel-caption {
   bottom: 20%; }
   .carousel-caption h3 {
@@ -530,8 +533,6 @@ a.thumbnail:hover {
     border: none;
     font-weight: 200;
     font-size: 15px; }
-  .price .table .primary-tab {
-    background: #111; }
 
 .list-ban {
   margin-bottom: 40px;
@@ -574,11 +575,190 @@ a.thumbnail:hover {
   border-bottom: 3px solid #ffe900;
   border-right: 3px solid #ffe900;
   border-radius: 5px; }
+.direction .mind a {
+  text-decoration: none; }
 .direction .mind p {
   color: #ffe900;
   font-size: 18px;
   text-align: center;
   font-weight: 200; }
+
+.direction-vn .direction-vn__item {
+  position: relative;
+  margin: 10px; }
+  .direction-vn .direction-vn__item img {
+    width: 100%; }
+  .direction-vn .direction-vn__item .direct-top {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid #ffe900;
+    border-left: 3px solid #ffe900;
+    width: 205px;
+    height: 120px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .direction-vn .direction-vn__item .direct-bottom {
+    height: 120px;
+    width: 205px;
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    border-right: 3px solid #ffe900;
+    border-bottom: 3px solid #ffe900;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+.direction-vn p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 15px;
+  margin: 0; }
+.direction-vn h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 200;
+  margin: 30px 0 23px; }
+.direction-vn .check-list p {
+  color: #ffe900;
+  text-align: left; }
+.direction-vn .check-list ul li label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  position: relative;
+  cursor: pointer; }
+.direction-vn .check-list ul li .check-box {
+  position: relative;
+  top: -1px;
+  right: 20px;
+  cursor: pointer; }
+  .direction-vn .check-list ul li .check-box:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffe900; }
+  .direction-vn .check-list ul li .check-box:checked:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 10px;
+    border-color: #ffe900;
+    border-top-style: none;
+    border-right-style: none; }
+  .direction-vn .check-list ul li .check-box:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    cursor: pointer; }
+.direction-vn .direction-vn_item .block {
+  position: relative;
+  margin: 10px 35px; }
+  .direction-vn .direction-vn_item .block img {
+    width: 100%; }
+  .direction-vn .direction-vn_item .block:hover .b-block {
+    opacity: 1; }
+  .direction-vn .direction-vn_item .block .b-block {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 221, 70, 0.7);
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease; }
+    .direction-vn .direction-vn_item .block .b-block .b-block__item {
+      width: 190px;
+      height: 190px;
+      background: #fff;
+      border-radius: 50%;
+      margin: 17px auto;
+      padding-top: 30px; }
+      .direction-vn .direction-vn_item .block .b-block .b-block__item h4 {
+        color: #000;
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 40px; }
+      .direction-vn .direction-vn_item .block .b-block .b-block__item a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 200;
+        font-size: 15px;
+        border-bottom: 1px solid #000;
+        text-align: center; }
+.direction-vn .photo .photo-button {
+  text-align: center; }
+  .direction-vn .photo .photo-button .btn-default {
+    color: #fff;
+    font-weight: 200;
+    background: transparent;
+    border: 1px solid #ffe900;
+    font-size: 30px;
+    outline: none;
+    -webkit-transition: .4s ease;
+    transition: .4s ease;
+    margin-top: 20px;
+    padding: 5px 35px; }
+    .direction-vn .photo .photo-button .btn-default:hover {
+      background: transparent;
+      color: #ffe900; }
+    .direction-vn .photo .photo-button .btn-default:focus {
+      background: transparent;
+      outline: none; }
+.direction-vn .next-direction-vn {
+  margin-top: 35px; }
+  .direction-vn .next-direction-vn p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200; }
+  .direction-vn .next-direction-vn ul li {
+    margin: 10px; }
+    .direction-vn .next-direction-vn ul li a {
+      text-decoration: none;
+      color: #ffe900;
+      border-bottom: 1px solid #ffe900;
+      font-size: 15px;
+      font-weight: 200; }
+.direction-vn .vk-news {
+  max-width: 200px;
+  margin: auto;
+  width: 100%; }
+.direction-vn .direction-vn__table {
+  margin-top: 35px; }
+  .direction-vn .direction-vn__table table {
+    width: 100%; }
+    .direction-vn .direction-vn__table table thead {
+      border: 1px solid #ffe900; }
+      .direction-vn .direction-vn__table table thead tr th {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        border-left: 1px solid #ffe900;
+        text-align: center;
+        padding: 14px 8px; }
+    .direction-vn .direction-vn__table table tbody tr td {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 200;
+      border-right: 1px solid #ffe900;
+      text-align: center;
+      padding: 10px 0; }
+      .direction-vn .direction-vn__table table tbody tr td:last-child {
+        border-right: none; }
 
 .teachers h2 {
   color: #fff;
@@ -675,12 +855,160 @@ a.thumbnail:hover {
   font-weight: 200; }
 
 .schedule {
-  background: url(../img/schedule.png) no-repeat center center; }
+  background: url(../img/schedule.png) no-repeat bottom right; }
   .schedule h2 {
     text-align: center;
     color: #fff;
     font-size: 26px;
     font-weight: 200; }
+  .schedule ul.list-li {
+    display: flex;
+    justify-content: space-between; }
+    .schedule ul.list-li li {
+      margin: 10px; }
+      .schedule ul.list-li li label {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        position: relative;
+        cursor: pointer; }
+      .schedule ul.list-li li .checkbox {
+        position: relative;
+        top: 15px;
+        right: 25px;
+        cursor: pointer; }
+        .schedule ul.list-li li .checkbox:before {
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          content: "";
+          position: absolute;
+          left: 0;
+          z-index: 1;
+          width: 20px;
+          height: 20px;
+          border: 2px solid #ffe900; }
+        .schedule ul.list-li li .checkbox:checked:before {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          height: 10px;
+          border-color: #ffe900;
+          border-top-style: none;
+          border-right-style: none; }
+        .schedule ul.list-li li .checkbox:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 20px;
+          height: 20px;
+          background: #000;
+          cursor: pointer; }
+  .schedule .select-hidden {
+    display: none;
+    visibility: hidden;
+    padding-right: 10px; }
+  .schedule .select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    width: 90px;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px; }
+  .schedule .select-styled {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 25px;
+    background-color: transparent;
+    padding: 5px 5px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    border: 1px solid #ffe900;
+    border-radius: 5px; }
+    .schedule .select-styled:hover {
+      background-color: transparent; }
+  .schedule .select-styled:active, .schedule .select-styled.active {
+    background-color: transparent; }
+  .schedule .select-styled:active:after, .schedule .select-styled.active:after {
+    top: 9px; }
+  .schedule .select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: transparent;
+    border-right: 1px solid #ffe900;
+    border-left: 1px solid #ffe900;
+    border-bottom: 1px solid #ffe900;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    .schedule .select-options li {
+      margin: 0 !important;
+      padding: 5px 0;
+      text-align: center;
+      -moz-transition: all 0.15s ease-in;
+      -o-transition: all 0.15s ease-in;
+      -webkit-transition: all 0.15s ease-in;
+      transition: all 0.15s ease-in; }
+      .schedule .select-options li:hover {
+        color: #ffe900;
+        background: transparent; }
+      .schedule .select-options li[rel="hide"] {
+        display: none; }
+  .schedule .shedule__item ul li {
+    display: inline-block;
+    margin: 0 15px 0 0; }
+    .schedule .shedule__item ul li a {
+      text-decoration: none;
+      color: #ffe900;
+      font-size: 18px;
+      font-weight: 200;
+      border-bottom: 1px solid #ffe900; }
+  .schedule .b-shedule p {
+    color: #fff;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 25px 0; }
+  .schedule .table-shedule {
+    margin-bottom: 20px; }
+    .schedule .table-shedule thead {
+      border: 1px solid #ffe900; }
+      .schedule .table-shedule thead th {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        border-right: 1px solid #ffe900;
+        padding: 10px 15px; }
+    .schedule .table-shedule tbody td {
+      color: #fff;
+      font-weight: 200;
+      font-size: 15px;
+      text-align: center;
+      border-right: 1px solid #ffe900;
+      padding: 20px 8px; }
+      .schedule .table-shedule tbody td:last-child {
+        border-right: none; }
+      .schedule .table-shedule tbody td a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #fff; }
 
 .teachers__mini h2 {
   color: #fff;

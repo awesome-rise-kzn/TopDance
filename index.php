@@ -10,6 +10,7 @@ $site = array(
     'pages' => array(
         'dance' => "inc/pages/dance.phtml", // ?action=dance
         'direction' => "inc/pages/direction.phtml", // ?action=direction
+        'direction-vn' => "inc/pages/direction-vn.phtml", // ?action=direction-vn
         'price' => "inc/pages/price.phtml", // ?action=price
         'teachers' => "inc/pages/teachers.phtml",// ?action=teachers
         'teachers__mini' => "inc/pages/teachers__mini.phtml",// ?action=teachers__mini
